@@ -14,7 +14,11 @@ Semantic HTML, navigation, relative paths, `<img>` and its attributes.
 
 ## ⌨️ Update your main `index.html` file
 
+<!-- done -->
+
 ### Add block-level semantic elements inside `<body>`
+
+<!-- done -->
 
 | 💡 For review of semantic elements                                                                                                                                                                                                                                                                                                                |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -46,48 +50,69 @@ Below, I will give you a list of elements to add to your main page. Use your sit
 
 Add the following elements. The `<header>`, `<main>`, `<aside>` and `<footer>` elements should be _top level_ or direct children of `<body>`. In other words, don't nest them inside each other. Your `<h1>` and `<p>` can be top level also as we will eventually move the to a hero section:
 
+<!-- header done
+main done
+aside done
+footer done -->
+
 - `<header>`
   - Inside `<header>` add a `<nav>`
     - Inside the `<nav>`, use a `<ul>` for the navigation menu and include "Home" "About" and "Contact" list items. We'll add links to these later in the assignment.
+    <!-- inside header: nav - done -->
 - `<main>`
   - Inside `<main>` add two `<article>` elements
+    <!-- 2 article elements - done -->
     - Inside each `<article>` include a descriptive `<h2>` and at least one `<p>` element
+    <!-- h2 and p in each - done -->
 - `<aside>` - you can include a pull quote from one of your articles or extra information to supplement your articles. Wrap text in `<p>` tags.
+<!-- LOOK AT THIS -->
 - `<footer>` - wrap text in `<p>` tags.
+<!-- done -->
 
 ### 📷 `<figure>` element
 
 Add a `<figure>` to your page inside an `<article>`.
 
+<!-- done -->
+
 You can use [Unsplash](https://unsplash.com/) to find images, but you must resize any image to 900px wide or less. [befunky](https://www.befunky.com/create/) is a free online site where you can easily crop and resize images.
 
-| ⚠️ Save your original images.                                                                                                                                                                                                                  |
+<!-- done -->
+
+| ⚠️ Save your original images. <!-- did -->                                                                                                                                                                                                     |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | We will need larger image sizes in later assignments. If you resize an image, save the original first. Place the original in an `originals` folder inside your `images` folder, or append `.original` (or something similar) to the file name. |
 
+<!-- done -->
+
 Your `<figure>` should include an `<img>` and a `<figcaption>`.
+
+<!-- done -->
 
 The image must be
 
 - placed in the `images` folder
+<!-- yes -->
 - appropriately sized (900px wide or less)
+  <!-- yes -->
 
-The image element must
+  The image element must
 
 - include a _relative_ path to the image file in the `images` folder
-
+  <!-- done -->
   | ⚠️ Image and folder names                                                                                                                                                                                                                                                                                                                                                                                                          |
   | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
   | Never use spaces in an image or folder name that will be hosted on the web. Best practices are to always use lowercase letters and to use hyphens `-` (not underlines `_`) to separate words. <br><br>Since search engines look at image file names, give your image files descriptive names. For example, if you have a PNG image of a hedgehog, name the file `hedgehog.png` instead of something vague list `DCIMG-3033-54.png` |
-
+  <!-- oops - fixed -->
 - include an `alt` attribute
+  <!-- done -->
 
   | 💡 Writing `alt` text                                                                                                                                                                                                         |
   | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
   | Read a11y collective's [How to write great alt text](https://www.a11y-collective.com/how-to-write-great-alt-text/) for tips on writing good alt text. Remember to never include "image of..." in alt text as it is redundant. |
 
 - use both `height` and `width` attributes appropriately
-
+  <!-- done -->
   | 💡 The `<img>` `height` and `width` attributes                                                                                                                                                                                                                                                                                                |
   | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
   | The HTML size attributes must be set to an image's actual (intrinsic) dimensions and not used to size the image. Use CSS to resize images. For more info on why, reference Smashing Magazine's [Setting Height And Width On Images Is Important Again](https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/) |
@@ -108,8 +133,15 @@ Somewhere on your main `index.html` page, include the following text-level seman
 
 - `<strong>`
 - `<em>`
+<!-- DO THIS
+DO THIS
+DO THIS -->
 
 ## Configure your About and Contact subpages
+
+<!-- DO THIS
+DO THIS
+DO THIS -->
 
 Open both the `about/index.html` and `contact/index.html` files that were included in this repo. For each file,
 
@@ -121,14 +153,17 @@ Feel free to modify the your About and Contact pages to include more content. We
 
 ## Add links to the navigation menus
 
+<!-- MAKE SURE THIS IS DONE
+LOOK HERE -->
+
 | 💡 Relative links                                                                                                                                                                                                                                                                                                                                                    |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Review MDN's [A quick primer on URLs and paths](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#a_quick_primer_on_urls_and_paths) for a review of relative links. Since the target files in the subfolders are named `index.html`, you don't need to include `index.html` in the paths. This generates a "cleaner" URL. |
 
 - In your main `index.html` navigation menu, add relative links to the About and Contact pages. Don't add `index.html` to the paths; use only folder names and end the link with a `/` to indicate the last value is a folder.
 - Do the same for the About and Contact pages.
-
-Check that all your links work and you can easily navigate between the pages.
+  <!-- done -->
+  Check that all your links work and you can easily navigate between the pages.
 
 | 💡 Placeholder links                                                                                                                                                                                                                                                                                           |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
