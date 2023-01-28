@@ -65,7 +65,7 @@ footer done -->
     - Inside each `<article>` include a descriptive `<h2>` and at least one `<p>` element
     <!-- h2 and p in each - done -->
 - `<aside>` - you can include a pull quote from one of your articles or extra information to supplement your articles. Wrap text in `<p>` tags.
-<!-- LOOK AT THIS -->
+<!-- done -->
 - `<footer>` - wrap text in `<p>` tags.
 <!-- done -->
 
@@ -133,15 +133,11 @@ Somewhere on your main `index.html` page, include the following text-level seman
 
 - `<strong>`
 - `<em>`
-<!-- DO THIS
-DO THIS
-DO THIS -->
+<!-- done -->
 
 ## Configure your About and Contact subpages
 
-<!-- DO THIS
-DO THIS
-DO THIS -->
+<!-- done -->
 
 Open both the `about/index.html` and `contact/index.html` files that were included in this repo. For each file,
 
@@ -153,8 +149,7 @@ Feel free to modify the your About and Contact pages to include more content. We
 
 ## Add links to the navigation menus
 
-<!-- MAKE SURE THIS IS DONE
-LOOK HERE -->
+<!-- done -->
 
 | 💡 Relative links                                                                                                                                                                                                                                                                                                                                                    |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -162,12 +157,12 @@ LOOK HERE -->
 
 - In your main `index.html` navigation menu, add relative links to the About and Contact pages. Don't add `index.html` to the paths; use only folder names and end the link with a `/` to indicate the last value is a folder.
 - Do the same for the About and Contact pages.
-  <!-- done -->
+    <!-- done -->
   Check that all your links work and you can easily navigate between the pages.
-
-| 💡 Placeholder links                                                                                                                                                                                                                                                                                           |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| You may notice on the About subpage that the `<a>` element for the About link is missing an `href` (the contact page is the same). An `href` attribute is not required, and you don't need to link a page to itself. The lack of an `href` attribute will make it easier to style the menu when we get to CSS. |
+  <!-- done -->
+  | 💡 Placeholder links                                                                                                                                                                                                                                                                                           |
+  | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | You may notice on the About subpage that the `<a>` element for the About link is missing an `href` (the contact page is the same). An `href` attribute is not required, and you don't need to link a page to itself. The lack of an `href` attribute will make it easier to style the menu when we get to CSS. |
 
 ## 💻 Use Live Server to preview your webpage
 
@@ -180,6 +175,8 @@ If you have errors or warnings, click on the icons to see what they are and fix 
 Once any problems are fixed, open your website in Live Server.
 
 Make sure that you can see your favicons in the browser tab for all three of your web pages. If you don't seen them, try a _hard reload_ to see if that makes them appear. If a hard reload doesn't work, check your image paths and make sure that your files are in the right location.
+
+<!-- done -->
 
 If everything looks good then.....
 
